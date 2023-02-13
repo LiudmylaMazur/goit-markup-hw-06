@@ -682,6 +682,7 @@ font-size: 14px;
     position: absolute;
     left: 5px; top: 50%;
     transform: translateY(-50%);
+    
   }
 
   .input-icon:hover {
@@ -732,3 +733,37 @@ letter-spacing: 0.04em;
 color: rgba(117, 117, 117, 0.5);
 }
 
+.check-text {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.check-text::before {
+content: '';
+width: 16px;
+height: 16px;
+border: 1.25px solid #2E2F42;
+border-radius: 2px;
+margin-right: 7px;
+}
+
+
+.check-link{
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+text-decoration-line: underline;
+color: #4D5AE5;
+
+}
+
+.input-check:checked + .check-text::before {
+background-color: #404BBF;
+border: none;
+background-image: url(../images/check.svg);
+background-repeat: no-repeat;
+background-position: center;
+
+}
