@@ -357,7 +357,10 @@
         </button>
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form class="modal-form"></form>
-          <label><span class="input-text"></span>Введіть ім'я
+          
+          <div class="modal-file">
+          <label><span class="input-text"></span>Введіть ім'я</label>
+          <div  class="input-wrap">
           <input 
             type="text" 
             class="modal-input" 
@@ -366,10 +369,12 @@
             required 
             >
             <svg class="modal-icon" width="18" height="18"><use href="./images/icons.svg#icon-person"></use>
-            </svg>
-          </label>
-          <label><span class="input-text"></span> Введіть телефон
-          <input 
+            </svg></div>
+          </div>  
+            <div class="modal-file">
+          <label><span class="input-text"></span> Введіть телефон</label>
+          <div  class="input-wrap">
+            <input 
             type="text" 
             class="modal-input" 
             name="user-tel" 
@@ -377,18 +382,20 @@
             required
             >  
             <svg class="modal-icon" width="18" height="18"><use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-          </label>
-          <label><span class="input-text"></span>Введіть пошту
-          <input 
+            </svg></div>
+          </div>
+            <div class="modal-file">
+          <label><span class="input-text"></span>Введіть пошту</label>
+          <div  class="input-wrap">
+            <input 
             type="text" 
             class="modal-input" 
             name="user-email" 
             placeholder="aaaaa@gmail.com"
             >
             <svg class="modal-icon" width="18" height="18"><use href="./images/icons.svg#icon-email"></use>
-            </svg>
-          </label>
+            </svg></div>
+          </div>
           <button type="submit">Send</button>
           <button type="reset">Delete</button>
         
