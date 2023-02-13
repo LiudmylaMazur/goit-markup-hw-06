@@ -688,3 +688,10 @@ font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.04em;
   }
+  
+.modal-icon {
+  fill: #2E2F42;
+}
+.modal-icon:hover {
+  fill: #4D5AE5;
+}
