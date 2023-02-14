@@ -577,9 +577,10 @@ a {
 
 .input-frame {
   fill: #ffffff;
-  left: 5px;
+  right: 5px;
   top: 50%;
   transform: translateY(-50%);
+  position: absolute;
 }
 
 /* ---------------------------section-portfolio------ */
